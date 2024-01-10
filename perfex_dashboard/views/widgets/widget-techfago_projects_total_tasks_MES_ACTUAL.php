@@ -40,6 +40,7 @@ $widget_data = $fn_get_data();
   <ul>
     <?php foreach ($widget_data as $data_row) { ?>
       <div class="widget widget-projects-total-tasks" data-widget-id="<?= $widget['id'] ?>">
+      <div class="widget-dragger"></div>
         <div class="card-counter success">
           <i class="fa fa-shield"></i>
           <span><?= _l('MES ACTUAL') ?></span>
